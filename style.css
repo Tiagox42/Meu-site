@@ -5,10 +5,8 @@
 }
 
 html, body {
-    background-image: url(https://wallpaperbat.com/img/241400-abstract-mountains-wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
+    background-color: #1f1f1f;
 }
 
 .parent {
@@ -24,12 +22,15 @@ html, body {
 
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
-    height: 100vh;
+    min-height: 98vh;
     background-color: #0c0c0c;
 }
 
 .div2 {
     grid-area: 1 / 2 / 2 / 3;
+    background-image: url(https://wallpaperbat.com/img/241400-abstract-mountains-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sText {
@@ -39,7 +40,7 @@ html, body {
 
 .logoImg {
     width: 130px;
-    margin-top: 15px;
+    margin-top: 105px;
     margin-left: 15px;
 }
 
@@ -47,7 +48,13 @@ footer {
     color: white;
     font-size: 15px; 
     text-align: center;
-    color: rgb(59, 57, 61);
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 179, 92);
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 26px;
 }
 
 a {
@@ -66,14 +73,24 @@ li i {
     color: white;
 }
 
+nav {
+    margin-top: 50px;
+}
+
 nav li a {
     font-size: 20px;
     color: white;
 }
 
 hr {
-    width: 80%;
-    text-align: left;
-    margin-right: 20%;
+    width: 100%;
+    margin: auto;
     opacity: 5%;
+}
+
+article {
+    background-color: rgb(175, 175, 175);
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
 }
