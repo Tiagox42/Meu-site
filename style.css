@@ -44,9 +44,13 @@ html, body {
     margin-left: 15px;
 }
 
+.clear {
+    clear: both;
+}
+
 footer {
     color: white;
-    font-size: 15px; 
+    font-size: 15px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -89,8 +93,44 @@ hr {
 }
 
 article {
-    background-color: rgb(175, 175, 175);
+    background-color: rgba(252, 141, 37, 0.705);
     margin: 20px;
     border-radius: 5px;
     padding: 20px;
+}
+
+.artigo {
+    min-height: 60vh;
+}
+
+.imgPerfil {
+    border: 5px solid #202020;
+    margin: 0px 30px 10px 0px;
+}
+
+.dadosSocial {
+    float: left;
+    width: min-content;
+    padding-bottom: 60vh;
+}
+
+.dadosSocial img {
+    height: 28px;
+    margin-bottom: -8px;
+}
+
+.dadosSocial a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.dadosSocialLinks {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.resumo {
+    
 }
